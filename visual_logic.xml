@@ -1,0 +1,31 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="727.2427529509032" scrolly="359.7937830388681" scale="0.7655186873167403">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="r|*I[HOF^}$sjBY6B;g:" x="-950" y="-470">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1736" scrolly="879" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="refraction" id="=2LhKOv)._v7R?{wY)t8" x="-1670" y="-590">
+      <value name="MATERIAL">
+        <shadow type="materialList" id="YALFh:5@WNPp$BLmlGa,">
+          <field name="FIELDNAME">Glass</field>
+        </shadow>
+      </value>
+      <value name="DISTANCE">
+        <shadow type="number_slider" id="XB}sz5#vO[t(TUo.lQuI">
+          <field name="NUM" min="0" max="10" step="0.1">0.7</field>
+        </shadow>
+      </value>
+      <value name="RENDER_AFTER">
+        <shadow type="objectList" id="7T811oaTm[7+^;@n#tM(">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1101" viewport-y="82" viewport-w="801" viewport-h="635.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
